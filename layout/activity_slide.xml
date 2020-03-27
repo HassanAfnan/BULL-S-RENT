@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".slide">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Some Of Our Cars"
+            android:id="@+id/text1"
+            android:layout_below="@id/v_flipper"
+            android:textStyle="bold"
+            android:fontFamily="@font/bangers"
+            android:textSize="36dp"
+            android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Here You Can See Some Of Our Best Cars"
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        android:textSize="24dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

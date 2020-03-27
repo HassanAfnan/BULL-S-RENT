@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tools">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/bangers"
+            android:text="BULL'S RENT"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="48dp"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/txt3"
+            android:fontFamily="@font/antic"
+            android:text="Nations Wide Car Rental App"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <VideoView
+            android:layout_below="@id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/videoView"
+            />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/videoView"
+            android:fontFamily="@font/bangers"
+            android:text="A Video About BULL'S RENT"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="24dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_centerInParent="true"
+            >
+            <ImageView
+                android:layout_marginRight="40dp"
+                android:id="@+id/e"
+                android:src="@drawable/play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@id/e"
+                android:id="@+id/e1"
+                android:src="@drawable/amazon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@id/e1"
+                android:id="@+id/e2"
+                android:src="@drawable/firebase"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@id/e2"
+                android:id="@+id/e3"
+                android:src="@drawable/google"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/e2"
+                android:fontFamily="@font/bangers"
+                android:text="Our Supporters"
+                android:textSize="24dp"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

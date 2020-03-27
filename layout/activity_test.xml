@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt1"
+        android:fontFamily="@font/bangers"
+        android:text="BULL'S RENT"
+        android:textAlignment="center"
+        android:textSize="52dp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:layout_below="@id/txt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/webWiew"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/webWiew"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bangers"
+        android:text="In case of any query feel free to reach us at:"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt2"
+        android:layout_centerInParent="true"
+        android:text="Bulls123@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/txt2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bangers"
+        android:text="You can also call us at our helpline numbers:"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt3"
+        android:layout_centerInParent="true"
+        android:text="+92-3435678909"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="22dp"
+        android:id="@+id/txt4"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txt4"
+        android:layout_centerInParent="true"
+        android:text="+92-3424568809"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
